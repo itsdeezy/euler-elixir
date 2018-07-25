@@ -2,4 +2,6 @@
   "apex": {:hex, :apex, "1.2.0", "2da5035ef5fc59da2c24187a880b1b6d38b6b67c19b89a6265f5986ff0e85b1f", [:mix], [], "hexpm"},
   "benchee": {:hex, :benchee, "0.13.1", "bd93ca05be78bcb6159c7176230efeda2f724f7ffd485515175ca411dff4893e", [:mix], [{:deep_merge, "~> 0.1", [hex: :deep_merge, repo: "hexpm", optional: false]}], "hexpm"},
   "deep_merge": {:hex, :deep_merge, "0.1.1", "c27866a7524a337b6a039eeb8dd4f17d458fd40fbbcb8c54661b71a22fffe846", [:mix], [], "hexpm"},
+  "elixir_uuid": {:hex, :elixir_uuid, "1.2.0", "ff26e938f95830b1db152cb6e594d711c10c02c6391236900ddd070a6b01271d", [:mix], [], "hexpm"},
+  "libgraph": {:hex, :libgraph, "0.12.0", "e837d552ab739cc42042ae67a9a5433ed6c383becec705a4010114e1b73c9a36", [:mix], [], "hexpm"},
 }

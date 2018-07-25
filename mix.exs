@@ -7,7 +7,7 @@ defmodule EulerElixir do
       version: "1.0.0",
       elixir: "~> 1.6",
       elixirc_paths: ["solutions"],
-      start_permanent: Mix.env == :prod,
+      start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
   end
@@ -17,7 +17,9 @@ defmodule EulerElixir do
   defp deps do
     [
       apex: "1.2.0",
-      benchee: "~> 0.11"
+      benchee: "~> 0.11",
+      elixir_uuid: "~> 1.2",
+      libgraph: "0.12.0"
     ]
   end
 end
